@@ -24,3 +24,12 @@ They are operationally defined as follows:
 
 * Finally, an object is unreachable, and therefore eligible for reclamation, when it is not reachable in any of the above ways.
 
+# How to run ?
+
+With Maven :
+    
+    mvn test
+    
+With IntelliJ or Eclipse, add VM Options :
+
+    -Xmx32M -verbose:gc
